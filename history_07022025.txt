@@ -1,0 +1,97 @@
+    1  yum install git -y
+    2  git --version
+    3  exit
+    4  cd mygit/
+    5  ls -la
+    6  echo "Hi" > index.html 
+    7  echo "commit2" > help.txt
+    8  git status
+    9  git add index.html 
+   10  git status
+   11  echo "This is my 2nd line" >> index.html 
+   12  git status
+   13  git diff
+   14  cat index.html 
+   15  pwd
+   16  git --version
+   17  hostnamectl
+   18  mkdir mygit
+   19  pwd
+   20  ls
+   21  cd mygit/
+   22  pwd
+   23  git config --global user.name "prasanna"
+   24  fit config --global --list
+   25  cd mygit/
+   26  git config --global --list
+   27  ls -la
+   28  git status
+   29  git log
+   30  cd mygit/
+   31  git status
+   32  cd mygit/
+   33  ls -la
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "2nd commit"
+   38  git status
+   39  ls -la
+   40  pwd
+   41  ls
+   42  cd mygit/
+   43  ls -la
+   44  git status
+   45  exit
+   46  ls
+   47  cd mygit/
+   48  ls -la
+   49  git status
+   50  exit
+   51  git status
+   52  ls
+   53  cd mygit/
+   54  git status
+   55  git log
+   56  git log --online
+   57  git log --oneline
+   58  git log -p
+   59  git log --oneline
+   60  git diff fe9e198 4ddde9d
+   61  git remote -v
+   62  git remote add origin https://github.com/javaprasanna1980/feb2025
+   63  git remote -v
+   64  git push -u origin master
+   65  git remote -v
+   66  git push -u origin master
+   67  git status
+   68  git remove -u origin
+   69  git rm -u origin
+   70  git remote rm origin
+   71  cd mygit/
+   72  ls -la
+   73  git remote -v
+   74  git remote add origin https://github.com/javaprasanna1980/feb2025
+   75  git remote -v
+   76  ls
+   77  vi index.html 
+   78  git status
+   79  git add .
+   80  git status
+   81  git commit -m "added some value"
+   82  git status
+   83  git push -u origin master
+   84  git status
+   85  git pull
+   86  cat index.html 
+   87  vi index.html 
+   88  git add .
+   89  git commit -m "added to test"
+   90  git status
+   91  git remote -v
+   92  git push -u origin master
+   93  history > history.txt
+   94  ls -la
+   95  cat history.txt 
+   96  git log --oneline
+   97  history > history_07022025.txt
