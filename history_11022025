@@ -1,0 +1,212 @@
+    1  yum install git -y
+    2  git --version
+    3  exit
+    4  cd mygit/
+    5  ls -la
+    6  echo "Hi" > index.html 
+    7  echo "commit2" > help.txt
+    8  git status
+    9  git add index.html 
+   10  git status
+   11  echo "This is my 2nd line" >> index.html 
+   12  git status
+   13  git diff
+   14  cat index.html 
+   15  pwd
+   16  git --version
+   17  hostnamectl
+   18  mkdir mygit
+   19  pwd
+   20  ls
+   21  cd mygit/
+   22  pwd
+   23  git config --global user.name "prasanna"
+   24  fit config --global --list
+   25  cd mygit/
+   26  git config --global --list
+   27  ls -la
+   28  git status
+   29  git log
+   30  cd mygit/
+   31  git status
+   32  cd mygit/
+   33  ls -la
+   34  git status
+   35  git add .
+   36  git status
+   37  git commit -m "2nd commit"
+   38  git status
+   39  ls -la
+   40  pwd
+   41  ls
+   42  cd mygit/
+   43  ls -la
+   44  git status
+   45  exit
+   46  ls
+   47  cd mygit/
+   48  ls -la
+   49  git status
+   50  exit
+   51  git status
+   52  ls
+   53  cd mygit/
+   54  git status
+   55  git log
+   56  git log --online
+   57  git log --oneline
+   58  git log -p
+   59  git log --oneline
+   60  git diff fe9e198 4ddde9d
+   61  git remote -v
+   62  git remote add origin https://github.com/javaprasanna1980/feb2025
+   63  git remote -v
+   64  git push -u origin master
+   65  git remote -v
+   66  git push -u origin master
+   67  git status
+   68  git remove -u origin
+   69  git rm -u origin
+   70  git remote rm origin
+   71  cd mygit/
+   72  ls -la
+   73  git remote -v
+   74  git remote add origin https://github.com/javaprasanna1980/feb2025
+   75  git remote -v
+   76  ls
+   77  vi index.html 
+   78  git status
+   79  git add .
+   80  git status
+   81  git commit -m "added some value"
+   82  git status
+   83  git push -u origin master
+   84  git status
+   85  git pull
+   86  cat index.html 
+   87  vi index.html 
+   88  git add .
+   89  git commit -m "added to test"
+   90  git status
+   91  git remote -v
+   92  git push -u origin master
+   93  history > history.txt
+   94  ls -la
+   95  cat history.txt 
+   96  git log --oneline
+   97  history > history_07022025.txt
+   98  ls 
+   99  exit
+  100  ls -la
+  101  cd mygit/
+  102  git remote -v
+  103  git status
+  104  rm history.txt
+  105  git status
+  106  ls -la
+  107  git push -u origin master 
+  108  git add .
+  109  git commit -m "msg3"
+  110  git push -u origin master 
+  111  git push -u origin master --force
+  112  git status
+  113  vi index.html 
+  114  git add .
+  115  git commit -m "msg4"
+  116  git status
+  117  clear
+  118  git pull
+  119  git fetch
+  120  git merge
+  121  vi index.html 
+  122  git push -u origin master
+  123  git push -u origin master --force
+  124  git status
+  125  git add .
+  126  git commit -m "msg5"
+  127  git push -u origin master --force
+  128  git status
+  129  git log --oneline
+  130  clear
+  131  exit
+  132  history > history_10022025
+  133  history
+  134  clear
+  135  cd mygit/
+  136  git status
+  137  cd ..
+  138  rm -rf /mygit
+  139  ls
+  140  cd mygit/
+  141  ls
+  142  git status
+  143  cd ..
+  144  ls
+  145  rm -rf mygit
+  146  ls
+  147  git clone https://github.com/javaprasanna1980/feb2025
+  148  ls
+  149  cd feb2025/
+  150  ls
+  151  git status
+  152  cd ..
+  153  ls
+  154  mv history_10022025 /feb2025/
+  155  mv history_10022025 /feb2025
+  156  ls
+  157  cd feb2025/
+  158  ls -la
+  159  ls
+  160  git remote -v
+  161  git log --oneline
+  162  git status
+  163  cd ..
+  164  ls
+  165  ls -la
+  166  cd feb2025/
+  167  ls -la
+  168  git status
+  169  git branch
+  170  git branch hello-world
+  171  git branch
+  172  git branch -d hello-world 
+  173  git branch
+  174  git branch besant
+  175  git branch
+  176  git checkout besant 
+  177  git branch
+  178  vi index.html 
+  179  cat index.html 
+  180  vi index.html 
+  181  git branch master
+  182  git branch
+  183  git checkout master 
+  184  git branch
+  185  cat index.html 
+  186  ls
+  187  git branch
+  188  ls -la
+  189  cat index.html 
+  190  git branch besant 
+  191  git checkout besant 
+  192  ls
+  193  git branch
+  194  ls
+  195  vi index.html 
+  196  cat index.html 
+  197  git commit -m "branch-commit"
+  198  git add .
+  199  git commit -m "branch-commit"
+  200  ls
+  201  cat index.html 
+  202  git checkout master 
+  203  git branch
+  204  ls
+  205  cat index.html 
+  206  git merge besant 
+  207  cat index.html 
+  208  git log --oneline
+  209  git log --graph
+  210  git remote -v
+  211  git push -u origin besant
+  212  history > history_11022025
